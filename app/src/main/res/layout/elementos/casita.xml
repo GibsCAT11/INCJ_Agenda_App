@@ -1,0 +1,12 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/home"
+android:layout_width="42dp"
+android:layout_height="37dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="12dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="135dp"
+android:clipToOutline="true"
+ />
+

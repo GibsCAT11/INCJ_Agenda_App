@@ -1,0 +1,12 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/gmail_group"
+android:layout_width="42dp"
+android:layout_height="39dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="11dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="203dp"
+android:clipToOutline="true"
+ />
+

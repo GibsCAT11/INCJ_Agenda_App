@@ -1,0 +1,11 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/stars"
+android:layout_width="48dp"
+android:layout_height="43dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="9dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="273dp"
+ />
+

@@ -1,64 +1,69 @@
-<LinearLayout 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
-	android:background="#FFFFFF"
 	android:orientation="vertical"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent">
-	<ScrollView 
-		android:id="@+id/rkt4gka2up2o"
+	android:layout_height="match_parent"
+	android:background="@drawable/pastizal"
+	tools:context=".TuActividad">
+
+	<ScrollView
+		android:id="@+id/scrollPrincipal"
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
-		android:layout_weight="1"
-		android:background="#FFFFFF">
+		android:layout_weight="1">
+
 		<LinearLayout
 			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:orientation="vertical">
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="16dp">
+
 			<LinearLayout
-				android:id="@+id/r3s4lsnbnaes"
+				android:id="@+id/contenedorCentral"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:background="#FFFFFF"
-				android:paddingVertical="382dp"
-				android:paddingHorizontal="44dp"
-				android:orientation="vertical">
+				android:orientation="vertical"
+				android:gravity="center"
+				android:paddingVertical="32dp"
+				android:paddingHorizontal="44dp">
+
 				<ImageView
-					android:id="@+id/rove5jod2h4"
+					android:id="@+id/logoArriba"
 					android:layout_width="143dp"
 					android:layout_height="143dp"
-					android:layout_marginStart="23dp"
-					android:src="@mipmap/ic_launcher"
-					android:scaleType="fitXY"
-				/>
+					android:src="@drawable/ic_mi_icono_vector"
+					android:scaleType="fitCenter"
+					android:layout_marginBottom="16dp"/>
+
 				<TextView
-					android:id="@+id/r7wb1n3bpjuh"
-					android:textColor="#000000"
-					android:textSize="64sp"
-					android:textStyle="bold"
-					android:layout_marginStart="96dp"
-					android:layout_height="wrap_content"
+					android:id="@+id/tituloCentral"
 					android:layout_width="match_parent"
-					android:layout_weight="1"
+					android:layout_height="wrap_content"
 					android:gravity="center"
 					android:text="NC\nC J"
-				/>
+					android:textColor="#000"
+					android:textSize="48sp"
+					android:textStyle="bold"
+					android:layout_marginBottom="16dp"/>
+
 				<ImageView
-					android:id="@+id/r47l5ghh5g5z"
+					android:id="@+id/logoIzquierda"
 					android:layout_width="143dp"
 					android:layout_height="143dp"
-					android:layout_marginStart="47dp"
-					android:src="@mipmap/ic_launcher"
-					android:scaleType="fitXY"
-				/>
+					android:src="@drawable/ic_mi_icono_vector"
+					android:scaleType="fitCenter"
+					android:layout_marginBottom="16dp"/>
+
 				<ImageView
-					android:id="@+id/rcnc3byppyng"
+					android:id="@+id/logoDerecha"
 					android:layout_width="143dp"
 					android:layout_height="143dp"
-					android:src="@mipmap/ic_launcher"
-					android:scaleType="fitXY"
-				/>
+					android:src="@drawable/ic_mi_icono_vector"
+					android:scaleType="fitCenter"/>
+
 			</LinearLayout>
 		</LinearLayout>
 	</ScrollView>

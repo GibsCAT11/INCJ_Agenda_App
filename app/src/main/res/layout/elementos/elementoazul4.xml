@@ -1,0 +1,35 @@
+<View
+android:id="@+id/vector_9"
+android:layout_width="476dp"
+android:layout_height="141dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="424.77dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="749.78dp"
+android:background="@drawable/vector_9"
+ />
+
+<!-- drawable/vector_9.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="477dp"
+android:height="142dp"
+android:viewportWidth="477"
+android:viewportHeight="142"
+ >
+<group>
+<clip-path
+android:pathData="M0.5 0.5H476.5V141.5H0.5V0.5Z"
+/>
+<path
+android:pathData="M0.5 0.5V141.5H476.5V0.5"
+android:fillColor="#007AFF"
+/>
+</group>
+<path
+android:pathData="M0.5 0.5H476.5V141.5H0.5V0.5Z"
+android:strokeWidth="1"
+android:strokeColor="#007AFF"
+/>
+</vector>
